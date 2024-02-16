@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaskTrek.activities.IntroActivity"
+    android:background="@drawable/img"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/tv_app_name_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task Trek "
+        android:textColor="@color/white"
+        android:fontFamily="@font/pacifico"
+        android:layout_marginTop="60dp"
+        android:textSize="63dp"
+        android:textStyle="italic"
+
+        />
+
+    <ImageView
+        android:id="@+id/appimg"
+        android:layout_width="290dp"
+        android:layout_height="190dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="60dp"
+
+        android:contentDescription="Intro Screen Image"
+        android:scaleType="fitCenter"
+
+        android:src="@drawable/photo" />
+
+<!--        android:scaleX="1.7"-->
+<!--        android:scaleY="1.7"-->
+
+
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's get started with Task Trek"
+        android:textSize="24dp"
+        android:textColor="@color/Splash"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\^_\^"
+        android:textSize="18dp"
+        android:textColor="@color/Splash"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/btn_sign_up_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginTop="60sp"
+        android:background="@drawable/shape_border_button_white"
+        android:text="register"
+        android:textSize="22dp"
+        android:foreground="?attr/selectableItemBackground"
+        android:textColor="@color/white"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="top"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="0dp"
+        android:paddingLeft="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already a user then"
+            android:textColor="@color/black"
+            android:layout_marginStart="0dp"
+            android:background="@color/white"
+            android:textStyle="normal"
+            android:textSize="12dp"/>
+
+
+        <Button
+            android:id="@+id/btn_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginEnd="0dp"
+            android:layout_marginTop="0dp"
+
+            android:background="@color/white"
+            android:text=" log in"
+            android:textSize="12dp"
+
+            android:textColor="@color/Splash"
+            android:textAlignment="viewStart"
+
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>
